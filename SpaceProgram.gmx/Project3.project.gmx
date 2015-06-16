@@ -7,11 +7,20 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\SampleButton</sprite>
+    <sprite>sprites\wallsprite</sprite>
+    <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sprite3</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\TestButton</object>
+    <object>objects\object1</object>
+    <object>objects\player</object>
+    <object>objects\left</object>
+    <object>objects\up</object>
+    <object>objects\right</object>
+    <object>objects\down</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\SampleRoom</room>
