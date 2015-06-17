@@ -9,6 +9,7 @@
     <sprite>sprites\SampleButton</sprite>
     <sprite>sprites\wallsprite</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite3</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -21,6 +22,8 @@
     <object>objects\up</object>
     <object>objects\right</object>
     <object>objects\down</object>
+    <object>objects\object7</object>
+    <object>objects\controller</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\SampleRoom</room>
