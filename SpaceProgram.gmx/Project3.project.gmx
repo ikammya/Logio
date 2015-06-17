@@ -24,6 +24,7 @@
     <object>objects\down</object>
     <object>objects\object7</object>
     <object>objects\controller</object>
+    <object>objects\micro_health</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\SampleRoom</room>
