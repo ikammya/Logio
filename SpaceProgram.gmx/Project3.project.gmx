@@ -11,24 +11,35 @@
     <sprite>sprites\sprite2</sprite>
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\Joybase</sprite>
+    <sprite>sprites\JoyJoy</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\GetDirection.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\TestButton</object>
     <object>objects\object1</object>
     <object>objects\player</object>
-    <object>objects\left</object>
-    <object>objects\up</object>
-    <object>objects\right</object>
-    <object>objects\down</object>
     <object>objects\object7</object>
-    <object>objects\controller</object>
-    <object>objects\micro_health</object>
+    <object>objects\Joystick</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\SampleRoom</room>
   </rooms>
+  <constants number="8">
+    <constant name="d_Left">1</constant>
+    <constant name="d_Right">2</constant>
+    <constant name="d_Up">3</constant>
+    <constant name="d_Down">4</constant>
+    <constant name="d_DownLeft">5</constant>
+    <constant name="d_DownRight">6</constant>
+    <constant name="d_UpLeft">7</constant>
+    <constant name="d_UpRight">8</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
