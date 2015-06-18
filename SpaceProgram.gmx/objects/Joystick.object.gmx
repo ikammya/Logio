@@ -72,9 +72,13 @@ lad=-1
 //   Check for first touch
 if device_mouse_check_button_pressed(i,mb_left)
     {
+    if device_mouse_raw_x(i) &lt; window_get_width()/2
+        {
             left_device_id=i
             left_start_x=device_mouse_raw_x(i)
             left_start_y=device_mouse_raw_y(i)
+                
+        }
     }
 }
 
