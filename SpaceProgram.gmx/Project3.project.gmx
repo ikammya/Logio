@@ -14,22 +14,24 @@
     <sprite>sprites\sprite5</sprite>
     <sprite>sprites\Joybase</sprite>
     <sprite>sprites\JoyJoy</sprite>
-    <sprite>sprites\walkleft</sprite>
-    <sprite>sprites\walkright</sprite>
-    <sprite>sprites\walkdown</sprite>
-    <sprite>sprites\walkup</sprite>
-    <sprite>sprites\stayleft</sprite>
-    <sprite>sprites\stayright</sprite>
-    <sprite>sprites\staydown</sprite>
-    <sprite>sprites\stayup</sprite>
-    <sprite>sprites\walkleftup</sprite>
-    <sprite>sprites\walkleftdown</sprite>
-    <sprite>sprites\walkrightup</sprite>
-    <sprite>sprites\walkrightdown</sprite>
-    <sprite>sprites\stayleftup</sprite>
-    <sprite>sprites\stayleftdown</sprite>
-    <sprite>sprites\stayrightup</sprite>
-    <sprite>sprites\stayrightdown</sprite>
+    <sprites name="C3PO">
+      <sprite>sprites\stayleftdown</sprite>
+      <sprite>sprites\walkleft</sprite>
+      <sprite>sprites\walkright</sprite>
+      <sprite>sprites\walkdown</sprite>
+      <sprite>sprites\stayleft</sprite>
+      <sprite>sprites\stayright</sprite>
+      <sprite>sprites\walkup</sprite>
+      <sprite>sprites\staydown</sprite>
+      <sprite>sprites\walkleftup</sprite>
+      <sprite>sprites\stayup</sprite>
+      <sprite>sprites\walkleftdown</sprite>
+      <sprite>sprites\walkrightup</sprite>
+      <sprite>sprites\walkrightdown</sprite>
+      <sprite>sprites\stayleftup</sprite>
+      <sprite>sprites\stayrightup</sprite>
+      <sprite>sprites\stayrightdown</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
