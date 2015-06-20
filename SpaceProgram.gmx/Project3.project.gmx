@@ -34,6 +34,7 @@
       <sprite>sprites\stayrightdown</sprite>
     </sprites>
     <sprite>sprites\floor1</sprite>
+    <sprite>sprites\cube2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
