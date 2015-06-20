@@ -6,7 +6,7 @@
   <depth>0</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
-  <maskName>&lt;undefined&gt;</maskName>
+  <maskName>stayleftdown</maskName>
   <events>
     <event eventtype="0" enumb="0">
       <action>
@@ -137,17 +137,20 @@ switch lad
           if y+sq&lt;room_height&amp;&amp;  x-sq&gt;0 {dy=sq;dx=-sq};sprite_index=walkleftdown;oldlad=lad;break;
          }
 }
-if (place_free(x+dx,y+dy)){
+x1=(bbox_right+bbox_left)/2;
+y1=(bbox_top+bbox_bottom)/2;
+if (place_free(x1+dx,y1+dy)){
     x+=dx;y+=dy;
 } else {
-    if (place_free(x+dx,y)&amp;&amp;!place_free(x,y+dy)){
+    if (place_free(x1+dx,y1)&amp;&amp;!place_free(x1,y1+dy)){
         x+=dx;
     } else {
-        if (!place_free(x+dx,y)&amp;&amp;place_free(x,y+dy)){
+        if (!place_free(x1+dx,y1)&amp;&amp;place_free(x1,y1+dy)){
         y+=dy;
     }
     }
 }
+depth=-bbox_bottom;
 </string>
           </argument>
         </arguments>
