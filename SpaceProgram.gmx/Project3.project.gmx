@@ -12,6 +12,7 @@
     <sprite>sprites\sprite4</sprite>
     <sprite>sprites\sprite3</sprite>
     <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\cube1</sprite>
     <sprite>sprites\Joybase</sprite>
     <sprite>sprites\JoyJoy</sprite>
     <sprites name="C3PO">
@@ -32,6 +33,7 @@
       <sprite>sprites\stayrightup</sprite>
       <sprite>sprites\stayrightdown</sprite>
     </sprites>
+    <sprite>sprites\floor1</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
