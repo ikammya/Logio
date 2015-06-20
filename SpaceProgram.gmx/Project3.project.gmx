@@ -24,11 +24,11 @@
       <sprite>sprites\walkup</sprite>
       <sprite>sprites\staydown</sprite>
       <sprite>sprites\walkleftup</sprite>
-      <sprite>sprites\stayup</sprite>
+      <sprite>sprites\walkleftup</sprite>
       <sprite>sprites\walkleftdown</sprite>
       <sprite>sprites\walkrightup</sprite>
       <sprite>sprites\walkrightdown</sprite>
-      <sprite>sprites\stayleftup</sprite>
+      <sprite>sprites\walkrightdown</sprite>
       <sprite>sprites\stayrightup</sprite>
       <sprite>sprites\stayrightdown</sprite>
     </sprites>
